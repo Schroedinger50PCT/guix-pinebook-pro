@@ -77,26 +77,6 @@
     display-buffer-in-previous-window
     display-buffer-use-some-window)))
 
-;; (setq user-full-name "Jakob Maximilian Honal"
-;;       user-mail-address "jakob.honal@gmx.de")
-
-;; (setq
-;;  ;; The mail URL, specifying a remote mail account
-;;  ;; (Omit this to read from /var/mail/user)
-;;  rmail-primary-inbox-list
-;;  '("pop://jakob.honal%40gmx.de@mail.gmx.net")
-
-;;  send-mail-function 'smtpmail-send-it       ; Send mail via SMTP
-;;  smtpmail-smtp-server "mail.gmx.com"
-;;  smtpmail-smtp-service 25
-;;  rmail-preserve-inbox 1                     ; Don't delete mail from server
-;;  rmail-mail-new-frame 1                     ; Compose in a full frame
-;;  rmail-delete-after-output 1                ; Delete original mail after copying
-;;  rmail-mime-prefer-html nil                 ; Prefer plaintext when possible
-;;  rmail-file-name   "~/mail/inbox"           ; The path to our inbox file
-;;  rmail-secondary-file-directory "~/mail"    ; The path to our other mbox files
-;;  message-default-headers "Fcc: ~/mail/sent") ; Copy sent mail to the "sent" file
-
 ;(require 'all-the-icons)      
 ;; (require 'all-the-icons-dired)
 ;; (add-hook 'dired-mode-hook 'all-the-icons-dired-mode)
